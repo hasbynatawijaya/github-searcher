@@ -1,0 +1,15 @@
+.user {
+  padding: 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+
+  &__avatar {
+    display: flex;
+    align-items: center;
+
+    &-img {
+      border-radius: 50%;
+      margin-right: 16px;
+    }
+  }
+}
